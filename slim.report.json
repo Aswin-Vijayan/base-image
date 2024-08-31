@@ -1,0 +1,214 @@
+{
+  "version": "1.1",
+  "engine": "darwin|Transformer|1.40.6|df98aa8c0e3ed3b15a25925cc07c1b54a5a6627a|2023-11-02_06:03:34PM",
+  "containerized": false,
+  "host_distro": {
+    "name": "",
+    "version": "",
+    "display_name": "Big Sur (11.6)"
+  },
+  "type": "build",
+  "state": "done",
+  "target_reference": "build-tools:latest",
+  "system": {
+    "type": "",
+    "release": "",
+    "distro": {
+      "name": "",
+      "version": "",
+      "display_name": ""
+    }
+  },
+  "source_image": {
+    "identity": {
+      "id": "sha256:c70d24eca88623f650b0c252176742a38d78bedb5bd337e7b7a8f2771489b5eb",
+      "tags": [
+        "latest"
+      ],
+      "names": [
+        "build-tools:latest"
+      ]
+    },
+    "size": 245954033,
+    "size_human": "246 MB",
+    "create_time": "2024-08-31T11:04:49Z",
+    "docker_version": "",
+    "architecture": "amd64",
+    "os": "linux",
+    "labels": {
+      "org.opencontainers.image.ref.name": "ubuntu",
+      "org.opencontainers.image.version": "22.04"
+    },
+    "env_vars": [
+      "PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin"
+    ],
+    "container_entry": {
+      "exe_path": ""
+    }
+  },
+  "minified_image_size": 165748397,
+  "minified_image_size_human": "166 MB",
+  "minified_image": "build-tools:slimmed",
+  "minified_image_has_data": true,
+  "minified_by": 1.4838999197078209,
+  "artifact_location": "/tmp/slim-state/.slim-state/images/c70d24eca88623f650b0c252176742a38d78bedb5bd337e7b7a8f2771489b5eb/artifacts",
+  "container_report_name": "creport.json",
+  "seccomp_profile_name": "build-tools-seccomp.json",
+  "apparmor_profile_name": "build-tools-apparmor-profile",
+  "image_stack": [
+    {
+      "is_top_image": true,
+      "id": "sha256:c70d24eca88623f650b0c252176742a38d78bedb5bd337e7b7a8f2771489b5eb",
+      "full_name": "build-tools:latest",
+      "repo_name": "build-tools",
+      "version_tag": "latest",
+      "raw_tags": [
+        "build-tools:latest"
+      ],
+      "create_time": "2024-08-31T11:04:49Z",
+      "new_size": 245954033,
+      "new_size_human": "246 MB",
+      "instructions": [
+        {
+          "type": "ARG",
+          "time": "2024-08-13T09:27:22Z",
+          "is_nop": true,
+          "local_image_exists": false,
+          "layer_index": 0,
+          "size": 0,
+          "params": "RELEASE",
+          "command_snippet": "ARG RELEASE",
+          "command_all": "ARG RELEASE",
+          "inst_set_time_bucket": "2024-08-13T14:45:00+05:30",
+          "inst_set_time_index": 0,
+          "inst_set_time_reverse_index": 1
+        },
+        {
+          "type": "ARG",
+          "time": "2024-08-13T09:27:22Z",
+          "is_nop": true,
+          "local_image_exists": false,
+          "layer_index": 0,
+          "size": 0,
+          "params": "LAUNCHPAD_BUILD_ARCH",
+          "command_snippet": "ARG LAUNCHPAD_BUILD_ARCH",
+          "command_all": "ARG LAUNCHPAD_BUILD_ARCH",
+          "inst_set_time_bucket": "2024-08-13T14:45:00+05:30",
+          "inst_set_time_index": 0,
+          "inst_set_time_reverse_index": 1
+        },
+        {
+          "type": "LABEL",
+          "time": "2024-08-13T09:27:22Z",
+          "is_nop": true,
+          "local_image_exists": false,
+          "layer_index": 0,
+          "size": 0,
+          "params": "org.opencontainers.image.ref.name=ubuntu",
+          "command_snippet": "LABEL org.opencontainers.image.ref.name=ubun...",
+          "command_all": "LABEL org.opencontainers.image.ref.name=ubuntu",
+          "inst_set_time_bucket": "2024-08-13T14:45:00+05:30",
+          "inst_set_time_index": 0,
+          "inst_set_time_reverse_index": 1
+        },
+        {
+          "type": "LABEL",
+          "time": "2024-08-13T09:27:22Z",
+          "is_nop": true,
+          "local_image_exists": false,
+          "layer_index": 0,
+          "size": 0,
+          "params": "org.opencontainers.image.version=22.04",
+          "command_snippet": "LABEL org.opencontainers.image.version=22.04",
+          "command_all": "LABEL org.opencontainers.image.version=22.04",
+          "inst_set_time_bucket": "2024-08-13T14:45:00+05:30",
+          "inst_set_time_index": 0,
+          "inst_set_time_reverse_index": 1
+        },
+        {
+          "type": "ADD",
+          "time": "2024-08-13T09:27:24Z",
+          "is_nop": true,
+          "local_image_exists": false,
+          "layer_index": 0,
+          "size": 77863449,
+          "size_human": "78 MB",
+          "params": "file:2f8a54a5efd080fb81efea702b4e3e07d946eec7563fb2281bd28950c10ec462 in /",
+          "command_snippet": "ADD file:2f8a54a5efd080fb81efea702b4e3e07d94...",
+          "command_all": "ADD file:2f8a54a5efd080fb81efea702b4e3e07d946eec7563fb2281bd28950c10ec462 /",
+          "target": "/",
+          "source_type": "file",
+          "inst_set_time_bucket": "2024-08-13T14:45:00+05:30",
+          "inst_set_time_index": 0,
+          "inst_set_time_reverse_index": 1
+        },
+        {
+          "type": "CMD",
+          "time": "2024-08-13T09:27:24Z",
+          "is_nop": true,
+          "is_exec_form": true,
+          "local_image_exists": false,
+          "layer_index": 0,
+          "size": 0,
+          "params": "[\"/bin/bash\"]\n",
+          "command_snippet": "CMD [\"/bin/bash\"]\n",
+          "command_all": "CMD [\"/bin/bash\"]\n",
+          "inst_set_time_bucket": "2024-08-13T14:45:00+05:30",
+          "inst_set_time_index": 0,
+          "inst_set_time_reverse_index": 1
+        },
+        {
+          "type": "RUN",
+          "time": "2024-08-31T11:04:49Z",
+          "is_nop": false,
+          "local_image_exists": false,
+          "layer_index": 0,
+          "size": 168090584,
+          "size_human": "168 MB",
+          "command_snippet": "RUN apt-get update && \\\n\tapt-get install -y ...",
+          "command_all": "RUN apt-get update && \\\n\tapt-get install -y     gnupg     apt-transport-https     lsb-release     wget && \\\n\twget -qO - https://aquasecurity.github.io/trivy-repo/deb/public.key | apt-key add - && \\\n\techo deb https://aquasecurity.github.io/trivy-repo/deb $(lsb_release -sc) main | tee -a /etc/apt/sources.list.d/trivy.list && \\\n\tapt-get update && \\\n\tapt-get install trivy -y && \\\n\twget -qO /usr/local/bin/hadolint https://github.com/hadolint/hadolint/releases/download/v2.12.0/hadolint-Linux-x86_64 && \\\n\tchmod +x /usr/local/bin/hadolint && \\\n\tapt-get clean && \\\n\trm -rf /var/lib/apt/lists/* /tmp/* /var/tmp/* /usr/share/doc/* /usr/share/man/*",
+          "system_commands": [
+            "apt-get update",
+            "apt-get install -y     gnupg     apt-transport-https     lsb-release     wget",
+            "wget -qO - https://aquasecurity.github.io/trivy-repo/deb/public.key | apt-key add -",
+            "echo deb https://aquasecurity.github.io/trivy-repo/deb $(lsb_release -sc) main | tee -a /etc/apt/sources.list.d/trivy.list",
+            "apt-get update",
+            "apt-get install trivy -y",
+            "wget -qO /usr/local/bin/hadolint https://github.com/hadolint/hadolint/releases/download/v2.12.0/hadolint-Linux-x86_64",
+            "chmod +x /usr/local/bin/hadolint",
+            "apt-get clean",
+            "rm -rf /var/lib/apt/lists/* /tmp/* /var/tmp/* /usr/share/doc/* /usr/share/man/*"
+          ],
+          "comment": "buildkit.dockerfile.v0",
+          "is_buildkit_instruction": true,
+          "inst_set_time_bucket": "2024-08-31T16:30:00+05:30",
+          "inst_set_time_index": 1,
+          "inst_set_time_reverse_index": 0
+        },
+        {
+          "type": "CMD",
+          "time": "2024-08-31T11:04:49Z",
+          "is_last_instruction": true,
+          "is_nop": false,
+          "is_exec_form": true,
+          "local_image_exists": true,
+          "layer_index": 0,
+          "size": 0,
+          "params": "[\"/bin/bash\"]\n",
+          "command_snippet": "CMD [\"/bin/bash\"]\n",
+          "command_all": "CMD [\"/bin/bash\"]\n",
+          "comment": "buildkit.dockerfile.v0",
+          "raw_tags": [
+            "build-tools:latest"
+          ],
+          "is_buildkit_instruction": true,
+          "inst_set_time_bucket": "2024-08-31T16:30:00+05:30",
+          "inst_set_time_index": 1,
+          "inst_set_time_reverse_index": 0
+        }
+      ]
+    }
+  ],
+  "image_created": true,
+  "image_build_engine": "internal"
+}

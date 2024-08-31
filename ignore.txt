@@ -1,2 +1,2 @@
 /usr/local/bin/hadolint
-/usr/bin/trivy
+/usr/bin/
